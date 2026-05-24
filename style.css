@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: white;
+  padding: 15px 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #000, #333);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ccc;
+}
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}}
+.button {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
